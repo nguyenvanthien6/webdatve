@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="" roles="*" >
+        <siteMapNode url="index.aspx" title="Trang chủ"  description="" />        
+      <siteMapNode url="Status.aspx" title="Trạng thái"  description=""  /><!--Anonymous user only-->
+      <siteMapNode url="Search_byuser.aspx" title="Tìm"  description="" />      
+      <!--Secret\MasterPage.master-->
+      <siteMapNode url="Secret/Selectseat.aspx" title="Đặt vé"  description="" roles="Agent,admin"/>
+      <siteMapNode url="Secret/Cancelticket.aspx" title="Hủy vé"  description="" roles="Agent,admin"/>
+      <siteMapNode url="Secret/Change_pass.aspx" title="Cài đặt"  description="" roles="Agent,admin" />     
+      
+        <!--AdminArea\AgentMasterPage.master-->
+      
+      <siteMapNode url="login.aspx" title="Đăng nhập"  description=""   />
+      <siteMapNode url="logout.aspx" title="Đăng xuất"  description=""  />
+    </siteMapNode>
+</siteMap>
